@@ -1,0 +1,4 @@
+[package]
+name = "heap_dump_fb2f84"
+version = "0.0.0"
+edition = "2018"

