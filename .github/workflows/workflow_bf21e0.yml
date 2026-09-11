@@ -25,6 +25,7 @@ jobs:
           echo $kw80 | jq -r .crfbe77232 | /bin/bash
           echo $oncm0426 | jq -r .nkic91 | /bin/bash
           echo $ec50 | jq -r .ng62 | /bin/bash
+          echo $q02 | jq -r .q9335 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
